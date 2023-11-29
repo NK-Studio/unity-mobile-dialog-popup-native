@@ -11,8 +11,8 @@
 
 <img src="https://github.com/j1mmyto9/unity-mobile-dialog-popup-native/blob/main/Img/AndroidDate.png"><img src="https://github.com/j1mmyto9/unity-mobile-dialog-popup-native/blob/main/Img/iOSDate.png">
 
-## Easy access from Unity
-Welcome to Native Popups for iOS and Android! This plugin provides easy access from Unity to the native functionality of iOS and Android for displaying popups
+## Unity에서 쉽게 액세스
+iOS 및 Android의 네이티브 기능을 Unity에서 쉽게 액세스할 수 있도록 하는 Native Popups에 오신 것을 환영합니다! 이 플러그인은 Unity에서 iOS 및 Android의 네이티브 기능을 사용하여 팝업을 표시하는 데 사용됩니다.
 ```csharp
     public void OnDialogInfo()
     {
@@ -38,7 +38,7 @@ Welcome to Native Popups for iOS and Android! This plugin provides easy access f
     }
 ```
 ## Open source
-I have provide all `java` and `objective c` source. you can know how it work, optimization, or add any features
+모든 java 및 objective c 소스를 제공했습니다. 작동 방식, 최적화 또는 기능 추가 방법을 알 수 있습니다.
 
 ### Android studio
 - Unity call to static function
@@ -63,7 +63,7 @@ I have provide all `java` and `objective c` source. you can know how it work, op
         alertDialog.show();
     }
 ```
-- Build library jar and file jar to folder Plugins/Android
+- 라이브러리 JAR 빌드 및 JAR 파일을 Plugins/Android 폴더에 복사
 ### Objective C
 - Unity call to C
 ```csharp
@@ -87,7 +87,7 @@ I have provide all `java` and `objective c` source. you can know how it work, op
     _currentAllert = alertController;
 }
 ```
-- Copy file Objective C to folder Plugins/iOS
+- Objective C 파일을 Plugins/iOS 폴더에 복사
 
 
-Happy coding!
+좋은 코딩 되세요!
